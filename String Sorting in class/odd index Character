@@ -1,0 +1,30 @@
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+    public static void main (String[] args) {
+                      // Your code here
+        Scanner ip = new Scanner(System.in);
+        String n = ip.nextLine();
+        for(int i=0; i<n.length(); i+=2){
+            //int m = n.charAt(i);
+            System.out.print(n.charAt(i)+" ");
+        }
+        
+    }
+}
+
+
+Sample Input
+abcde
+
+Sample Output
+a c e
+
+Sample Input
+abcd
+
+Sample Output
+a c
